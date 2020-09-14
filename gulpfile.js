@@ -88,7 +88,7 @@ const generateVersioningFile = async function () {
                 return
             }
 
-            let finalPath = `./bundles/${trackerId}/source.js`
+            let finalPath = `./bundles/${trackerId}/tracker.js`
 
             promises.push(
                 new Promise((res, rej) => {
